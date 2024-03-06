@@ -1,13 +1,17 @@
-
 {
-    "manifest_version" : 1,
-    "name": "p Timer",
-    "version" : "1.0",
-    "action" : {
-        "default_popup": "popup.html",
-        "default_icon" :{
-            "128" : "icon16.png"
-        }
+    "manifest_version": 3,
+    "name": "Pomodoro Timer",
+    "version": "1.0",
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "128": "icon16.png"
+      }
     },
-    "permissions" : ["activeTab"]
-}
+    "permissions": [
+      "activeTab"
+    ],
+    "icons": {
+      "128": "icon16.png"
+    }
+  }
