@@ -1,4 +1,5 @@
-{
+
+  {
     "manifest_version": 3,
     "name": "Pomodoro Timer",
     "version": "1.0",
@@ -9,9 +10,15 @@
       }
     },
     "permissions": [
-      "activeTab"
+      "activeTab",
+      "storage",
+      "background"
     ],
+    "background": {
+      "service_worker": "background.js"
+    },
     "icons": {
       "128": "icon16.png"
     }
   }
+  
